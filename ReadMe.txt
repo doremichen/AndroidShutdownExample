@@ -47,17 +47,7 @@ java -jar signapk.jar platform.x509.pem platform.pk8 origin.apk target.pak
 其他資訊#1：
 如果沒有加上
 android:sharedUserId="android.uid.system"，
-只有加
 是可以build出apk，也可以用adb install方式安裝，但是runtime會出現下列錯誤訊息：
 
 adb logcat如下：
 E/AndroidRuntime( 1131): java.lang.SecurityException: Neither user 10048 nor current process has android.permission.REBOOT.
-
-
-其他資訊#2：
-eclipse的權限檢查不是檢查
-    android:sharedUserId="android.uid.system"
-而是檢查
-    < uses-permission android:name="android.permission.REBOOT" / >
-    < uses-permission android:name="android.permission.UPDATE_DEVICE_STATS" / >
-導致上述問題的，應該還有其他項目，目前沒有找到哪裡有詳細列出檢查的項目。
