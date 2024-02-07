@@ -1,0 +1,31 @@
+//
+// AndroidShutdownExample
+//
+prebuilt_etc {
+    name: "privapp_whitelist_com.adam.app.androidshutdown",
+    product_specific: true,
+    sub_dir: "permissions",
+    src: "privapp-permissions-shutdown-example.xml",
+    filename_from_src: true,
+}
+
+android_app {
+    name: "AndroidShutdownExample",
+
+    platform_apis: true,
+
+    srcs: ["app/src/main/java/**/*.java"],
+    
+    resource_dirs: [
+        "app/src/main/res",
+    ],
+    
+    certificate: "platform",
+
+    product_specific: true,
+    privileged: true,
+
+    manifest: "app/src/main/AndroidManifest.xml",
+
+    required: ["privapp_whitelist_com.adam.app.androidshutdown"],
+}

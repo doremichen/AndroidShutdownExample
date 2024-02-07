@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This XML file declares which signature|privileged permissions should be granted to privileged
+applications
+-->
+<permissions>
+    <privapp-permissions package="com.adam.app.androidshutdown">
+        <permission name="android.permission.REBOOT"/>
+        <permission name="android.permission.DEVICE_POWER"/>
+        <permission name="android.permission.SET_TIME"/>
+    </privapp-permissions>
+    
+</permissions>
