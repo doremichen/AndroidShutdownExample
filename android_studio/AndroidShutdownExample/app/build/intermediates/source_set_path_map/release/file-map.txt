@@ -1,0 +1,8 @@
+com.adam.app.androidshutdown.app-pngs-0 E:\GitWorkSpace\AndroidShutdownExample\android_studio\AndroidShutdownExample\app\build\generated\res\pngs\release
+com.adam.app.androidshutdown.app-resValues-1 E:\GitWorkSpace\AndroidShutdownExample\android_studio\AndroidShutdownExample\app\build\generated\res\resValues\release
+com.adam.app.androidshutdown.app-rs-2 E:\GitWorkSpace\AndroidShutdownExample\android_studio\AndroidShutdownExample\app\build\generated\res\rs\release
+com.adam.app.androidshutdown.app-mergeReleaseResources-3 E:\GitWorkSpace\AndroidShutdownExample\android_studio\AndroidShutdownExample\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir
+com.adam.app.androidshutdown.app-mergeReleaseResources-4 E:\GitWorkSpace\AndroidShutdownExample\android_studio\AndroidShutdownExample\app\build\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+com.adam.app.androidshutdown.app-merged_res-5 E:\GitWorkSpace\AndroidShutdownExample\android_studio\AndroidShutdownExample\app\build\intermediates\merged_res\release
+com.adam.app.androidshutdown.app-main-6 E:\GitWorkSpace\AndroidShutdownExample\android_studio\AndroidShutdownExample\app\src\main\res
+com.adam.app.androidshutdown.app-release-7 E:\GitWorkSpace\AndroidShutdownExample\android_studio\AndroidShutdownExample\app\src\release\res

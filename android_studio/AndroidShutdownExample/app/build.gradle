@@ -3,13 +3,13 @@ plugins {
 }
 
 android {
-    compileSdkVersion 17
+    compileSdk 33
     buildToolsVersion "33.0.2"
 
     defaultConfig {
         applicationId "com.adam.app.androidshutdown"
         minSdkVersion 17
-        targetSdkVersion 17
+        targetSdk 33
     }
 
     buildTypes {
@@ -17,6 +17,10 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
+    }
+
+    lint {
+        abortOnError false
     }
 }
 

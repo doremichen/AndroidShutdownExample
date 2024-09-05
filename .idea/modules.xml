@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/android_studio/android_studio.iml" filepath="$PROJECT_DIR$/android_studio/android_studio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eclipse/eclipse.iml" filepath="$PROJECT_DIR$/eclipse/eclipse.iml" />
+    </modules>
+  </component>
+</project>

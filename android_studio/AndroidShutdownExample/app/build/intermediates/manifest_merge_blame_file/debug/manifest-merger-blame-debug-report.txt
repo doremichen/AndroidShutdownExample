@@ -1,0 +1,55 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.adam.app.androidshutdown"
+4    android:sharedUserId="android.uid.system"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+8-->E:\GitWorkSpace\AndroidShutdownExample\android_studio\AndroidShutdownExample\app\src\main\AndroidManifest.xml:7:5-9:41
+9        android:minSdkVersion="17"
+9-->E:\GitWorkSpace\AndroidShutdownExample\android_studio\AndroidShutdownExample\app\src\main\AndroidManifest.xml:8:9-35
+10        android:targetSdkVersion="33" />
+10-->E:\GitWorkSpace\AndroidShutdownExample\android_studio\AndroidShutdownExample\app\src\main\AndroidManifest.xml:9:9-38
+11
+12    <uses-permission android:name="android.permission.REBOOT" />
+12-->E:\GitWorkSpace\AndroidShutdownExample\android_studio\AndroidShutdownExample\app\src\main\AndroidManifest.xml:10:5-64
+12-->E:\GitWorkSpace\AndroidShutdownExample\android_studio\AndroidShutdownExample\app\src\main\AndroidManifest.xml:10:22-62
+13    <uses-permission android:name="android.permission.DEVICE_POWER" />
+13-->E:\GitWorkSpace\AndroidShutdownExample\android_studio\AndroidShutdownExample\app\src\main\AndroidManifest.xml:11:5-70
+13-->E:\GitWorkSpace\AndroidShutdownExample\android_studio\AndroidShutdownExample\app\src\main\AndroidManifest.xml:11:22-68
+14    <uses-permission android:name="android.permission.SET_TIME" />
+14-->E:\GitWorkSpace\AndroidShutdownExample\android_studio\AndroidShutdownExample\app\src\main\AndroidManifest.xml:12:5-66
+14-->E:\GitWorkSpace\AndroidShutdownExample\android_studio\AndroidShutdownExample\app\src\main\AndroidManifest.xml:12:22-64
+15
+16    <application
+16-->E:\GitWorkSpace\AndroidShutdownExample\android_studio\AndroidShutdownExample\app\src\main\AndroidManifest.xml:13:5-24:19
+17        android:allowBackup="true"
+17-->E:\GitWorkSpace\AndroidShutdownExample\android_studio\AndroidShutdownExample\app\src\main\AndroidManifest.xml:14:10-36
+18        android:debuggable="true"
+19        android:icon="@drawable/ic_launcher"
+19-->E:\GitWorkSpace\AndroidShutdownExample\android_studio\AndroidShutdownExample\app\src\main\AndroidManifest.xml:15:9-45
+20        android:label="@string/app_name"
+20-->E:\GitWorkSpace\AndroidShutdownExample\android_studio\AndroidShutdownExample\app\src\main\AndroidManifest.xml:16:9-41
+21        android:theme="@style/AppTheme" >
+21-->E:\GitWorkSpace\AndroidShutdownExample\android_studio\AndroidShutdownExample\app\src\main\AndroidManifest.xml:17:9-40
+22        <activity
+22-->E:\GitWorkSpace\AndroidShutdownExample\android_studio\AndroidShutdownExample\app\src\main\AndroidManifest.xml:18:9-23:20
+23            android:name="com.adam.app.androidshutdown.MainActivity"
+23-->E:\GitWorkSpace\AndroidShutdownExample\android_studio\AndroidShutdownExample\app\src\main\AndroidManifest.xml:18:19-46
+24            android:exported="true" >
+24-->E:\GitWorkSpace\AndroidShutdownExample\android_studio\AndroidShutdownExample\app\src\main\AndroidManifest.xml:18:47-70
+25            <intent-filter>
+25-->E:\GitWorkSpace\AndroidShutdownExample\android_studio\AndroidShutdownExample\app\src\main\AndroidManifest.xml:19:13-22:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->E:\GitWorkSpace\AndroidShutdownExample\android_studio\AndroidShutdownExample\app\src\main\AndroidManifest.xml:20:17-68
+26-->E:\GitWorkSpace\AndroidShutdownExample\android_studio\AndroidShutdownExample\app\src\main\AndroidManifest.xml:20:25-66
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->E:\GitWorkSpace\AndroidShutdownExample\android_studio\AndroidShutdownExample\app\src\main\AndroidManifest.xml:21:17-76
+28-->E:\GitWorkSpace\AndroidShutdownExample\android_studio\AndroidShutdownExample\app\src\main\AndroidManifest.xml:21:27-74
+29            </intent-filter>
+30        </activity>
+31    </application>
+32
+33</manifest>

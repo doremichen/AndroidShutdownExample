@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 7.4.2" type="partial_results">
+    <map id="UnusedResources">
+        <location id="R.menu.main"
+            file="${:app*debug*sourceProvider*0*resDir*0}/menu/main.xml"
+            line="1"
+            column="1"
+            startOffset="0"
+            endLine="9"
+            endColumn="8"
+            endOffset="261"/>
+        <entry
+            name="model"
+            string="dimen[activity_vertical_margin(U),activity_horizontal_margin(U)],drawable[ic_launcher(U)],id[btn_power_off(U),action_settings(D),LinearLayout1(D),btn_reboot(U)],layout[activity_main(U)],menu[main(D)],string[str_power_off_btn(U),action_settings(D),app_name(U),hello_world(D),str_set_system_time_btn(D),str_reboot_btn(U)],style[AppBaseTheme(U),AppTheme(U)];7^0^1^9^e,8^a,10^f;;;"/>
+        <location id="R.string.action_settings"
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="5"
+            column="13"
+            startOffset="121"
+            endLine="5"
+            endColumn="35"
+            endOffset="143"/>
+        <location id="R.string.hello_world"
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="6"
+            column="13"
+            startOffset="175"
+            endLine="6"
+            endColumn="31"
+            endOffset="193"/>
+        <location id="R.string.str_set_system_time_btn"
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="9"
+            column="13"
+            startOffset="337"
+            endLine="9"
+            endColumn="43"
+            endOffset="367"/>
+    </map>
+
+</incidents>
